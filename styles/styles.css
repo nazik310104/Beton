@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif !important;
+}
+.nav__content{
+    max-width: 1140px;
+}
+.nav-link{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    color: #333333 !important;
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
+.phone{
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.foto-bg{
+    background-image: url(../assets/images/Rectangle\ 5.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* .hero{
+    max-width: 1140px;
+    height: 483px;
+} */
+.btn-bg{
+    background-color: #3D9BE9;
+    color: #FFFFFF;
+    border-color: #3D9BE9;
+    font-size: 18px;
+    font-weight: bold;
+}
+.first-btn{
+    width: 270px;
+    height: 55px;
+}
+.first-btn:hover{
+    background-color: blue;
+}
+.hero__title{
+    
+    color: #333333;
+}
+
+.hero{
+    height: 80vh;
+}
+.hero img{
+    width: 566px;
+    height: auto;
+    object-fit: contain;
+}
+.companies__photos img{
+    width: 350px;
+    
+    height: auto;
+    object-fit: contain;
+}
+@media (min-width: 1200px){
+    .container{
+        max-width: 1140px !important;
+    }
+    
+    
+}
+@media screen and (max-width: 992px){
+    .steps{
+        height: 160vh !important;
+      margin-top: 200px;
+    }
+    .steps div{
+        padding: 30px;
+    }
+    .steps__boxes div{
+        margin: 30px;
+        height: 270px !important;
+    }
+    .order{
+        height: 1100px !important;
+    }
+.order__phone{
+    margin-top: 100px !important;
+}
+
+}
+@media screen and (max-width: 768px){
+.footer{
+        height: 1300px !important;
+    }
+
+}
+
+.round{
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    border-color:#3D9BE9 ;
+    background-color: #3D9BE9;
+    right: 80px;
+    margin-top: 270px;
+    box-shadow: 0 0 5px 20px #3d9ce994;
+    
+    
+}
+@media screen and (max-width: 1200px){
+    .steps__boxes div{
+        margin: 30px;
+        width: 250px !important;
+    }
+    .companies{
+        height: 700px !important;
+    }
+    .companies__item{
+        padding-top: 0 !important;
+    }
+    
+    
+    
+}
+@media screen and (max-width: 1000px){
+    .round{
+        display: none;
+    }
+}
+.white-bg{
+    background-color: #FFFFFF;
+}
+.steps__boxes div{
+    width: 340px;
+    height: 250px;
+    text-align: center;
+   background-color: #FFFFFF;
+   box-shadow: 0 0 5px 2px #33333394;
+   border-radius: 20px;
+   padding-top: 25px;
+   cursor: pointer;
+}
+.steps{
+    height: 50vh;
+}
+.steps__boxes h4:hover{
+    text-decoration: underline;
+}
+.steps img{
+    padding: 15px;
+}
+.photo-bg{
+    background-image: url(../assets/images/Rectangle\ 6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background{
+
+    height: 800px;
+}
+.advantages__item div{
+    width: 320px;
+    height: 81px;
+    text-align: center;
+   background-color: transparent;
+   padding-top: 150px;}
+   .grey-bg{
+       background-color: #f8f8f8;
+   }
+   .order{
+       height: 700px;
+   }
+   /* .order__inner{
+       max-width: 660px;
+       height: 564px;
+   } */
+   .order__inner img{
+       width: 500px;
+       height: auto;
+       object-fit: contain;
+   }
+   .name{
+       width: 250px;
+       height: 40px;
+   }
+   .phone{
+    width: 250px;
+    height: 40px;
+}
+.order__phone{
+    margin: -100px 100px 0;
+}
+.companies{
+    height: 700px;
+}
+
+
+.logo_5{
+    max-width: 140px !important;
+    max-height: 140px !important;
+}
+.companies__item{
+    padding-top: 100px;
+}
+
+
+.footer{
+    height: 400px;
+    background-color: #333333;
+}
+.hello{
+    padding-top: 100px !important;
+}
+.apps{
+    padding-top: 100px !important; 
+}
+.button{
+    padding-top: 100px !important;  
+}
